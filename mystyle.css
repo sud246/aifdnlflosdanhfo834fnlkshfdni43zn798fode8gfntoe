@@ -1,0 +1,124 @@
+
+/*   p {font-size:30px;}
+  a {font-size:30px;}
+ body {font-size:30px;} 
+  select {font-size:30px;}
+  input {font-size:30px;} */
+
+h1 {
+  color: red;
+
+  text-align: center;
+ }
+ 
+form {
+  margin-top: 40 px;
+  margin-right: 100;
+  margin-left: 100;
+
+  font-size:30px;
+ } 
+ button {
+  margin-top: 40 px;
+  margin: 100;
+  margin-right: 100;
+  margin-left: 100;
+
+  font-size:30px;
+ } 
+ 
+input {
+	font-size:30px;
+}
+select {
+	font-size:30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  margin-bottom: 40px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+/* #linking { */
+  /* position: absolute; */
+  /* width: 115px; */
+  /* height: 20px; */
+  /* z-index: 15; */
+  /* top: 30%; */
+  /* left: 50%; */
+  /* margin: -100px 0 -0 -150px; */
+
+/* } */
+
+.linking {
+	 float: left;
+     width: 21.66666666667%;
+     margin-right: 3.333334%;
+     padding: 20px;
+     background: #eee;
+     box-sizing: border-box;
+	 text-align: center;
+}
+
+
+
+@media (max-width:960px) { 
+
+.SJB {
+	float:left;
+	padding: 10px;
+	margin-right: 3.33334%;
+	width: 21.66666666667%;
+	text-align: center;
+	color:red;
+	font-size: 20px;
+	
+}
+.linktxt {
+	text-align: center;
+	
+}
+.selfach {
+	margin-bottom: 30px;
+	width:100%;
+	
+}
+li a {
+	margin-bottom: 5px;
+	margin-top: 5px;
+	padding: 17px;
+	
+}
+
+
+}
+
+
+@media (min-width:960px) { 
+ }
+
+
+
